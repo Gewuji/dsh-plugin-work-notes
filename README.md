@@ -1,5 +1,7 @@
 # 工作便签 · Work Notes
 
+> **这是一个 DSH 插件** —— 全称 DeepSeek Harness，本仓库是它的一个 Web 界面插件（bundle）。装进 DSH 后出现在左侧栏，不是独立软件、不能单独运行，也不需要构建。
+
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）Web 界面加一个**左侧栏工作便签面板**：随手记下待办，卡片自由摆放、缩放、吸附对齐；便签可带起止日期，在**日历**和**甘特图**里拖拽改期。
 
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-0.1.x-4D6BFE)](https://github.com/deepseek-ai/deepseek-harness)

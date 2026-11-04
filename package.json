@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-work-notes",
   "version": "1.0.0",
-  "description": "Work Notes for DeepSeek Harness: a sidebar sticky-note board with a month calendar and a Gantt timeline",
+  "description": "DSH（DeepSeek Harness）插件：工作便签——左侧栏便签面板，便签画布自由摆放、月历与甘特图拖拽改期，数据只存本机浏览器",
   "type": "module",
   "exports": {
     ".": "./index.js",
