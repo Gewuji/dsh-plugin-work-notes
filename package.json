@@ -1,0 +1,51 @@
+{
+  "name": "dsh-plugin-work-notes",
+  "version": "1.0.0",
+  "description": "Work Notes for DeepSeek Harness: a sidebar sticky-note board with a month calendar and a Gantt timeline",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sticky-notes",
+    "work-notes",
+    "calendar",
+    "gantt"
+  ],
+  "license": "MIT",
+  "author": "Gewuji",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gewuji/dsh-plugin-work-notes.git"
+  },
+  "homepage": "https://github.com/Gewuji/dsh-plugin-work-notes#readme",
+  "bugs": {
+    "url": "https://github.com/Gewuji/dsh-plugin-work-notes/issues"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}
